@@ -1,0 +1,105 @@
+.pricing-card {
+  background: #fff7f2;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 391px;
+  height: 512px;
+  position: relative;
+  transition: transform 0.3s ease;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+
+  &:hover {
+    transform: translateY(-50px);
+    background-color: #FFFFFF;
+  }
+
+  &.popular {
+    background: FFFFFF;
+    border: 1px solid #F3D1BF;
+  }
+
+  .popular-badge {
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    transform: translateX(-50%);
+    background: #EF6D58;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 19px;
+    font-size: 16px;
+    width: 92px;
+    height: 38px;
+
+  }
+
+  .pricing-title {
+    font-size: 16px;
+    color: #EF6D58;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .pricing-price {
+    font-size: 40px;
+    font-weight: bold;
+    color: #391400;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .pricing-description {
+    width: 295px;
+    height: 69px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400A3;
+    text-align: left;
+  }
+
+  .pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: #391400;
+      margin-bottom: 30px;
+
+      .feature-icon {
+        width: 16px;
+        height: 16px;
+      }
+
+      .included {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .contact-btn {
+    background: #FFFFFF;
+    color: #391400;
+    width: 154px;
+    height: 48px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-left: -200px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: #d66a4c;
+    }
+  }
+}

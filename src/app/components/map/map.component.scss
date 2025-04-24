@@ -1,0 +1,174 @@
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+
+h1{
+  font-size: 40px;
+  color: #391400;
+  width: 233px;
+  height: 48px;
+  margin-left: 100px;
+}
+
+.mailnews {
+  color: #391400A3;
+  background-color: #FFFFFF;
+  border: 1px solid #F3D1BF;
+  width: 370px;
+  height: 48px;
+  margin-left: 150px;
+  margin-right: -400px;
+
+}
+
+.btn {
+  width: 170px;
+  height: 48px;
+  color: #391400;
+  margin-top: 2px;
+ margin-right: 90px;
+
+}
+
+.map {
+  display: flex;
+}
+
+.map .img1 {
+  width: 100%;
+  height: 720px;
+}
+
+.map .img2 {
+ width: 50px;
+ height: 50px;
+ margin-left: -465px;
+ margin-top: 350px;
+}
+
+.form-control {
+  position: absolute;
+  width: 470px;
+  height: 464px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  margin-top: -590px;
+  margin-left: 20px;
+  z-index: 10;
+}
+
+h3 {
+  font-size: 24px;
+  color: #391400;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.input{
+  background-color: #FFFFFF;
+  border: 1px solid #F3D1BF;
+  width: 374px;
+  height: 48px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #391400A3;
+  font-size: 16px;
+}
+
+select {
+  background-color: #FFFFFF;
+  border: 1px solid #F3D1BF;
+  width: 374px;
+  height: 48px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #391400A3;
+  font-size: 16px;
+}
+
+button {
+  background-color: #EF6D58;
+  color: #FFFFFF;
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  margin-left: 240px;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+  .map-section {
+    margin-bottom: 1000px
+  }
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    width: auto;
+    height: auto;
+  }
+
+  .mailnews {
+    width: 90%;
+    margin: 0 0 20px 0;
+  }
+
+  .btn {
+    width: 90%;
+    margin: 0 0 40px 0;
+  }
+
+  .map {
+    flex-direction: column;
+    margin-top: 600px;
+  }
+
+  .map .img1 {
+    height: 720px;
+  }
+
+  .map .img2 {
+    position: relative;
+    margin: -35px auto 20px auto;
+    margin-top: -300px
+  }
+
+  .form-control {
+    position: static;
+    width: 90%;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    height: auto;
+    margin-top: -1000px;
+  }
+
+  h3 {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  .input, select {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  button {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+}

@@ -1,0 +1,36 @@
+.numbered-item {
+  display: flex;
+  max-width: 400px;
+  align-items: center;
+  gap: 10px;
+  background-color: #FDF0E9;
+  margin-top: 20px;
+}
+
+.number {
+  font-size: 92px;
+  font-weight: bold;
+  color: #4a2d17;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #3d2b1f;
+}
+
+@media(max-width: 768px) {
+  .number {
+    font-size: 72px;
+    width: 34px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .text {
+    font-size: 24px;
+    width: 257px; 
+    height: 64px;
+    line-height: 32px;
+  }
+}

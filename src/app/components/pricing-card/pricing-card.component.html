@@ -1,0 +1,16 @@
+<div class="pricing-card" [class.popular]="isPopular">
+  <div *ngIf="isPopular" class="popular-badge">Popular</div>
+
+  <h3 class="pricing-title">{{ title }}</h3>
+  <h2 class="pricing-price">{{ price }}</h2>
+  <p class="pricing-description">{{ description }}</p>
+
+  <ul class="pricing-features">
+    <li *ngFor="let feature of features">
+      <img [src]="feature.image" alt="Feature Icon" class="feature-icon" />
+      <span [class.included]="feature.included">{{ feature.text }}</span>
+    </li>
+  </ul>
+
+  <button class="contact-btn">CONTACT US</button>
+</div>

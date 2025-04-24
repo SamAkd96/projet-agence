@@ -1,0 +1,11 @@
+<div [ngClass]="customClass" class="test-quote">
+  <div class="testimonial-quote">
+    <img *ngIf="image" [src]="image" [alt]="" class="avatar">
+    <div class="content">
+      <p *ngIf="text" class="quote">"{{ text }}"</p>
+      <p *ngIf="text1" class="quote1">{{ text1 }}</p>
+      <p class="company">{{ company }}</p>
+    </div>
+  </div>
+</div>
+

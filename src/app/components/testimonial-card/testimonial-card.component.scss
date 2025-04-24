@@ -1,0 +1,162 @@
+.testimonial-card {
+  background: #FDF0E9;
+  padding: 20px;
+  width: 586px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #F3D1BF;
+}
+
+.stars {
+  color: #FFD700;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  line-height: 2.5;
+  width: 490px;
+  height: 128px;
+  margin-left: 40px;
+  margin-top: -20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.company {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.testi1 {
+  .testimonial-card {
+    background-color: #FFFFFF;
+  }
+}
+
+.testi2 {
+  .testimonial-card {
+    height: 336px;
+  }
+
+  .testimonial-text {
+    width: 490px;
+    height: 90px;
+  }
+}
+
+.testi3 {
+  .testimonial-card {
+    height: 336px;
+  }
+
+  .testimonial-text {
+    width: 490px;
+    height: 90px;
+  }
+}
+
+.testi4 {
+  .testimonial-card {
+    height: 336px;
+  }
+
+  .testimonial-text {
+    width: 490px;
+    height: 90px;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .testimonial-card {
+    width: 329px;
+    height: 528px;
+    margin-left: 30px;
+  }
+
+  .testimonial-text {
+    width: 273px;
+    height: 261px;
+    font-size: 16px;
+    line-height: 32px;
+    margin-left: 2px;
+  }
+
+  .stars {
+    margin-left: 2px;
+  }
+
+  .profile {
+    margin-left: 2px;
+  }
+
+  .testi1 {
+    .profile {
+      margin-top: -100px;
+    }
+  }
+
+  .testi2 {
+    .stars {
+      margin-top: -4px;
+    }
+    .testimonial-text {
+      width: 273px;
+      height: 132px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+
+  }
+
+  .testi3 {
+    .stars {
+      margin-top: -4px;
+    }
+    .testimonial-text {
+      width: 273px;
+      height: 132px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+
+  }
+  .testi4 {
+    .stars {
+      margin-top: -4px;
+    }
+    .testimonial-text {
+      width: 273px;
+      height: 132px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+
+  }
+}

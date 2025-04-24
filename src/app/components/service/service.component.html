@@ -1,0 +1,11 @@
+<div [ngClass]="customClass">
+  <div class="service-card">
+    <div class="icon">
+      <img [src]="icon" alt="{{ title }}">
+    </div>
+    <h3 *ngIf="title">{{ title }}</h3>
+    <p *ngIf="description">{{ description }}</p>
+    <a href="#" *ngIf="linkText">{{ linkText }}</a>
+  </div>
+</div>
+

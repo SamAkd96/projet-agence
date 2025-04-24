@@ -1,0 +1,585 @@
+<app-header />
+<div class="banner">
+  <app-bloc
+  subTitle="Modern Studio"
+  title="We’re Help
+  To Build Your
+  Dream Project"
+  description="Agency provides a full service range including technical skills, design, business understanding."
+  buttonText="HOW WE WORK"
+  buttonText2="Contact Us"
+  buttonLink1=""
+  imageSrc="assets/hero.png"
+  imagePosition="right"
+  ></app-bloc>
+  <app-testimonial-quote
+  image="assets/avatar.png"
+  text="Put themselves in the merchant's shoes"
+  company="Meta Inc."
+  ></app-testimonial-quote>
+</div>
+
+<div class="part2">
+  <div class="logo2">
+    <img src="assets/lot1.png" alt="" class="lot1">
+    <img src="assets/lot2.png" alt="" class="lot2">
+    <img src="assets/lot3.png" alt="" class="lot3">
+    <img src="assets/lot4.png" alt="" class="lot4">
+    <img src="assets/lot5.png" alt="" class="lot5">
+
+  </div>
+
+  <hr>
+  <div class="About-section">
+    <app-bloc2
+      subTitle="About"
+      title="An Experience
+      Design Agency"
+      secondT="Provides a full service range"
+      description="Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team"
+      buttonText="About us"
+      buttonLink="/about"
+      imageSrc="assets/pic.png"
+      imagePosition="left"
+      customClass="about-sec"
+    ></app-bloc2>
+  </div>
+
+  <div class="stats-container">
+    <app-stats-part
+    value="42%"
+    label="Years of experience"
+    ></app-stats-part>
+    <app-stats-part
+    value="73+"
+    label="Agency members"
+    ></app-stats-part>
+    <app-stats-part
+    value="5.000"
+    label="Projects complete"
+    ></app-stats-part>
+  </div>
+
+  <div class="number-section">
+    <div class="number-bloc">
+      <app-bloc2
+      subTitle="How we work"
+      title="Making Your Projects
+      Look Awesome"
+      description="Technical skills, design, business understanding, ability to put themselves in the merchant's shoes."
+      buttonText="Read More"
+      buttonLink="/Read More"
+      customClass="we-work"
+      ></app-bloc2>
+    </div>
+
+    <div class="number-item">
+      <app-numbered-list
+    number="1"
+    text="Full service range includin"
+    ></app-numbered-list>
+    <app-numbered-list
+    number="2"
+    text="Technical skills, design, business"
+    ></app-numbered-list>
+    <app-numbered-list
+    number="3"
+    text="Themselves in the merchant's"
+    ></app-numbered-list>
+    </div>
+  </div>
+
+  <hr class="hr2">
+
+  <div class="video">
+    <app-bloc2
+          subTitle="Video Reel"
+          title="Unlock The Greatest Value Possible"
+          description="Design, business understanding, ability to put themselves in the merchant's shoes meant to partner"
+          imageSrc="assets/vid.png"
+          imagePosition="left"
+          customClass="video"
+        >
+      </app-bloc2>
+
+  </div>
+  <div class="features">
+    <app-bloc2
+      subTitle="FEATURES"
+      title="Give Your Site
+      A New Look"
+      description="Service range including technical skills, design, business understanding."
+      imageSrc="assets/features.png"
+      imagePosition="right"
+      customClass="custom-features"
+    ></app-bloc2>
+    <div class="checkmark">
+      <app-check-item text="Range including technical skills"></app-check-item>
+      <app-check-item text="Business understanding"></app-check-item>
+      <app-check-item text="Partner on the long run"></app-check-item>
+    </div>
+
+  </div>
+
+  <div class="features2">
+    <app-bloc2
+      subTitle="FEATURES"
+      description="Long run, and work as an extension of the merchant's team"
+      buttonText="Read More"
+      buttonLink="/Read More"
+      customClass="custom-features2"
+    ></app-bloc2>
+
+
+    <div class="feature-container">
+      <app-feature-card
+        icon="assets/Combined Shape.png"
+        title="Professional"
+        description="Full service range including technical skills, design."
+      ></app-feature-card>
+
+      <app-feature-card
+        title="Accessibility"
+        description="Business understanding, ability to put themselves."
+        customClass="custom-featuresC"
+      ></app-feature-card>
+    </div>
+  </div>
+
+
+  <div class="serv-pic">
+    <app-bloc2
+      subTitle="SERVICE"
+      title="Making Complex
+      Digital Products"
+      secondT="Agency provides a full service range including technical skills, design, business"
+      buttonText="EXPLORE"
+      buttonLink="/explore"
+      imageSrc="assets/serv-pic.png"
+      imagePosition="left"
+      customClass="serv-pic"
+    ></app-bloc2>
+    <app-testimonial-quote
+      image="assets/avatar2.png"
+      text="Understanding, ability to put themselves in the merchant's shoes. It is meant to partner."
+      company="Jenny Murtaugh"
+      customClass="serv-pic"
+    ></app-testimonial-quote>
+  </div>
+
+  <div>
+    <app-bloc2
+      subTitle="SERVICE"
+      title="How Our Agency
+      Can Help"
+      customClass="serv-part"
+    ></app-bloc2>
+
+    <div class="services-container">
+      <app-service
+        icon="assets/icons/design.png"
+        title="Design"
+        description="Agency provides a full service range including technical skills, design."
+        linkText="Learn More">
+      </app-service>
+      <app-service
+        icon="assets/icons/development.png"
+        title="Development"
+        description="Full service range including technical skills, design, business."
+        linkText="Discover More">
+      </app-service>
+      <app-service
+        icon="assets/icons/marketing.png"
+        title="Marketing"
+        description="Technical skills, design, business understanding, ability."
+        linkText="Explore Now">
+      </app-service>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="part3">
+  <app-bloc2
+      subTitle="Portfolio"
+      title="Latest Work"
+      buttonText="EXPLORE MORE"
+      buttonLink="/explore"
+      customClass="portfolio"
+  ></app-bloc2>
+
+  <div class="category-container">
+    <app-category-items label="Show All" [count]="14" [active]="true"></app-category-items>
+    <app-category-items label="Design" [count]="6"></app-category-items>
+    <app-category-items label="Branding" [count]="4"></app-category-items>
+    <app-category-items label="Illustration" [count]="3"></app-category-items>
+    <app-category-items label="Motion" [count]="1"></app-category-items>
+  </div>
+
+  <select class="category-dropdown">
+  <option value="Show All">Show All (14)</option>
+  <option value="Design">Design (6)</option>
+  <option value="Branding">Branding (4)</option>
+  <option value="Illustration">Illustration (3)</option>
+  <option value="Motion">Motion (1)</option>
+</select>
+
+  <div class="projects-grid">
+    <app-project-card
+      image="assets/sofa.png"
+      category="Design"
+      title="SOFA"
+      customClass="sofa"
+      >
+    </app-project-card>
+
+    <app-project-card
+      image="assets/keyboard.png"
+      category="Branding"
+      title="KeyBoard"
+      customClass="keyboard">
+    </app-project-card>
+
+    <app-project-card
+      image="assets/work-media.png"
+      category="Illustration"
+      title="Work Media"
+      customClass="work">
+    </app-project-card>
+
+    <app-project-card
+      image="assets/dddone.png"
+      category="Motion"
+      title="DDDone"
+      customClass="done">
+    </app-project-card>
+  </div>
+
+
+
+  <div class="multiverse">
+    <app-bloc2
+      subTitle="Get Started"
+      title="We Help Companies
+      Move Faster"
+      buttonText="CONTACT US"
+      buttonLink="/contact-us"
+      imageSrc="assets/Path.png"
+      imageSrc1="assets/Path2.png"
+      imageSrc2="assets/block.png"
+      imageSrc3="assets/icon.png"
+      imagePosition="right"
+      customClass="multiverse"
+    ></app-bloc2>
+  </div>
+
+  <app-bloc2
+      subTitle="Events"
+      title="Explore Future
+      Conferences"
+      buttonText="EXPLORE MORE"
+      buttonLink="/explore"
+      customClass="events"
+  ></app-bloc2>
+  <div class="events-container">
+    <app-event-card
+      day="3"
+      month="November"
+      year="2021"
+      time="9:00 am - 3:00 pm"
+      title="Design Weeks"
+      description="Digital agency is a business you hire to outsource your digital."
+      linkText="Explore Now">
+    </app-event-card>
+    <app-event-card
+      day="15"
+      month="November"
+      year="2021"
+      time="1:00 pm - 8:00 pm"
+      title="Interior Design"
+      description="Marketing efforts, instead of handling in-house."
+      linkText="Explore Now">
+    </app-event-card>
+    <app-event-card
+      day="2"
+      month="December"
+      year="2021"
+      time="10:00 am - 2:00 pm"
+      title="The F design events"
+      description="Provide your business with a variety of digital solutions to promote."
+      linkText="Explore Now">
+    </app-event-card>
+  </div>
+
+
+
+  <app-bloc2
+      subTitle="Our Team"
+      title="Team of Designers
+      and Developers"
+      imageSrc="assets/arrow.png"
+      imageSrc1="assets/pins.png"
+      imagePosition="right"
+      customClass="arrow"
+  ></app-bloc2>
+  <app-team-slider></app-team-slider>
+
+  <div class="founder-section">
+    <app-bloc2
+      subTitle="Founder Words"
+      title="Digital agency is a business you hire to outsource your digital marketing efforts"
+      imageSrc="assets/founder.png"
+      imagePosition="left"
+      customClass="founder"
+    ></app-bloc2>
+    <app-testimonial-quote
+      text1="Ren Delan"
+      company="Founder"
+      customClass="founder"
+    ></app-testimonial-quote>
+  </div>
+
+</div>
+
+
+
+<div class="part4">
+  <app-bloc2
+      subTitle="Testimonials"
+      title="What Our
+      Clients Saying"
+      buttonText="See All"
+      buttonLink="/see-all"
+      customClass="testi"
+  ></app-bloc2>
+  <div class="testimonials-container">
+    <div class="left">
+      <app-testimonial-card
+      name="Alan Marti"
+      company="Meta Inc."
+      text= "A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you"
+      image= "assets/Alan.png"
+      customClass="testi1"
+      ></app-testimonial-card>
+      <app-testimonial-card
+      name="Graham Griffiths"
+      company="Twitor"
+      text="Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety"
+      image="assets/Graham.png"
+      customClass="testi2"
+      ></app-testimonial-card>
+    </div>
+    <div class="right">
+      <app-testimonial-card
+        name="Richardo Kann"
+        company="Photogram"
+        text="Provide your business with a variety of digital solutions to promote your product or service online."
+        image="assets/Richardo.png"
+        customClass="testi3"
+      ></app-testimonial-card>
+      <app-testimonial-card
+      name="Maria Trofimova"
+      company="Whochat"
+      text="Promote your product or service online and help you hit your marketing goals and grow your business."
+      image="assets/Maria.png"
+      customClass="testi4"
+      ></app-testimonial-card>
+    </div>
+  </div>
+
+
+  <div class="pricing">
+    <app-bloc2
+      subTitle="Pricing"
+      title="Check Our Pricing Plans"
+      customClass="pricing"
+    ></app-bloc2>
+    <div class="pricing-section">
+      <app-pricing-card
+      title="CONSULTATION"
+      price="Free"
+      description="Your digital marketing efforts, instead of handling in-house."
+      [features]="[
+        { text: 'Brand Design', image: 'assets/plus.png', included: true },
+        { text: 'Market Analysis', image: 'assets/minus.png', included: false },
+        { text: 'Production', image: 'assets/minus.png', included: false }
+      ]">
+    </app-pricing-card>
+
+    <app-pricing-card
+      title="DESIGN"
+      price="$1500"
+      description="Provide your business with a variety of digital solutions to promote."
+      [features]="[
+        { text: 'Brand Design', image: 'assets/plus.png', included: true },
+        { text: 'Market Analysis', image: 'assets/plus.png', included: true },
+        { text: 'Production', image: 'assets/minus.png', included: false }
+      ]"
+      [isPopular]="true">
+    </app-pricing-card>
+
+    <app-pricing-card
+      title="DESIGN + CODE"
+      price="$2900"
+      description="Help you hit your marketing goals and grow your business."
+      [features]="[
+        { text: 'Brand Design', image: 'assets/plus.png', included: true },
+        { text: 'Market Analysis', image: 'assets/plus.png', included: true },
+        { text: 'Production', image: 'assets/plus.png', included: true }
+      ]">
+    </app-pricing-card>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="faq-section">
+    <app-bloc2
+      subTitle="FAQ"
+      title="Frequently Asked
+      Questions"
+      description="A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house."
+      buttonText="Contact Us"
+      buttonLink="/contact-us"
+      customClass="faq"
+    ></app-bloc2>
+    <div class="accordion-section">
+      <app-accordion-item
+        title="A digital agency is a business"
+        content="Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.">
+      </app-accordion-item>
+
+      <app-accordion-item
+        title="Hire to outsource your digital"
+        content="Outsourcing your digital marketing allows you to focus on your core business while experts handle your online presence.">
+      </app-accordion-item>
+
+      <app-accordion-item
+        title="Marketing efforts"
+        content="Marketing efforts include SEO, social media, content creation, and advertising campaigns.">
+      </app-accordion-item>
+
+      <app-accordion-item
+        title="Can provide your business"
+        content="Businesses can leverage digital solutions to reach a wider audience and increase conversions.">
+      </app-accordion-item>
+    </div>
+  </div>
+
+
+
+  <div class="ewards-section">
+    <app-bloc2
+      title="Our Awards"
+      description="Want more awards?"
+      buttonText="Explore Now"
+      buttonLink="/explore"
+      customClass="award"
+    ></app-bloc2>
+    <div class="eward-list" >
+        <app-award-list-item
+          imageUrl="assets/sofa-award.png"
+          title="SOFA"
+          date="25 Oct, 2021"
+          awardName="Awwwards"
+          awardLogo="assets/awwwards.png">
+        </app-award-list-item>
+
+        <app-award-list-item
+          imageUrl="assets/keyboard-award.png"
+          title="KeyBoard"
+          date="19 Oct, 2021"
+          awardName="CSS Design Awards"
+          awardLogo="assets/awards.png">
+        </app-award-list-item>
+
+        <app-award-list-item
+          imageUrl="assets/work-media-award.png"
+          title="Work Media"
+          date="7 Oct, 2021"
+          awardName="The FWA"
+          awardLogo="assets/fwa.png">
+        </app-award-list-item>
+    </div>
+
+  </div>
+
+  <app-bloc2
+      subTitle="OUR BLOG"
+      title="Latest Blog
+      Articles"
+      buttonText="Discover All"
+      buttonLink="/contact-us"
+      customClass="blog"
+    ></app-bloc2>
+    <div class="article-section">
+      <app-article-card
+        image="assets/article1.png"
+        category="Stories"
+        title="Agency is a business you hire to outsource"
+        date="5 Nov, 2021">
+      </app-article-card>
+
+      <app-article-card
+        image="assets/article2.png"
+        category="Design"
+        title="Outsource your digital marketing efforts"
+        date="29 Oct, 2021">
+      </app-article-card>
+
+      <app-article-card
+        image="assets/article3.png"
+        category="Marketing"
+        title="Your business with a variety of digital"
+        date="21 Oct, 2021">
+      </app-article-card>
+    </div>
+
+    <app-map></app-map>
+    <div class="services-container">
+      <app-service
+        icon="assets/icons/phone.png"
+        title="PHONE"
+        description="+1 (234) 567-89-00"
+        customClass="service2">
+      </app-service>
+      <app-service
+        icon="assets/icons/mail.png"
+        title="EMAIL"
+        description="info@agency.com"
+        customClass="service2">
+      </app-service>
+      <app-service
+        icon="assets/icons/addrese.png"
+        title="ADDRESS"
+        description="2247 Lunetta Street, TX 76301"
+        customClass="service2">
+      </app-service>
+    </div>
+
+    <div class="multiverse2">
+      <app-bloc2
+          title="We’re Help
+          To Build Your
+          Dream Project"
+          description="A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house."
+          buttonText="CONTACT US"
+          buttonLink="/contact-us"
+          imageSrc="assets/multi-pic.png"
+          imagePosition="right"
+          customClass="multi2">
+      </app-bloc2>
+    </div>
+    <div class="footer-section">
+      <app-footer></app-footer>
+    </div>
+
+</div>
+
+
+
+
+<router-outlet />

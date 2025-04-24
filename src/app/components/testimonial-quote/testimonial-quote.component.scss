@@ -1,0 +1,91 @@
+.testimonial-quote {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  margin-top: -120px;
+  width: 400px;
+
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #a855f7;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.quote {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 8px;
+}
+
+.company {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 2px;
+}
+
+.serv-pic {
+  .testimonial-quote {
+    margin-left: 750px;
+    margin-top: -250px;
+  }
+
+  .quote {
+    color: #391400A3;
+  }
+
+  .company {
+    color: #391400;
+  }
+}
+
+.founder {
+  .testimonial-quote {
+    margin-left: 725px;
+    margin-top: -230px;
+    line-height: 2.5;
+  }
+
+  .quote1 {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  .company {
+    font-size: 14px;
+    color: #FFFFFFA3;
+  }
+}
+
+@media(max-width: 768px) {
+  .test-quote {
+    margin-left: -120px;
+    margin-top: 750px;
+  }
+
+  .serv-pic {
+    .testimonial-quote {
+      margin-left: 130px;
+      margin-top: -950px;
+    }
+  }
+
+  .founder {
+    .testimonial-quote {
+      margin-left: 120px;
+      margin-top: -850px;
+    }
+  }
+}

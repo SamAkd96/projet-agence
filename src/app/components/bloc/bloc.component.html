@@ -1,0 +1,12 @@
+<div class="section-container" [ngClass]="{'reverse': imagePosition === 'left'}">
+  <div class="text-content">
+    <p class="sub-title" *ngIf="subTitle">{{ subTitle }}</p>
+    <h2>{{ title }}</h2>
+    <p class="description">{{ description }}</p>
+    <a *ngIf="buttonText" [href]="buttonLink" class="cta-button1">{{ buttonText }}</a>
+    <a *ngIf="buttonText2" [href]="buttonLink" class="cta-button2">{{ buttonText2 }}</a>
+  </div>
+  <div class="image-content">
+    <img [src]="imageSrc" alt="Section Image" />
+  </div>
+</div>
